@@ -6,22 +6,22 @@
 
 ## 📌 Sobre o Projeto
 
-Projeto prático desenvolvido para a disciplina de **Linguagem de Programação I**[cite: 13]. O sistema simula as operações quotidianas de uma cafeteria, estruturado com controlo de acesso baseado em perfis (Dono, Funcionário e Cliente)[cite: 15, 17, 20].
+Projeto prático desenvolvido para a disciplina de **Linguagem de Programação I**. O sistema simula as operações quotidianas de uma cafeteria, estruturado com controlo de acesso baseado em perfis (Dono, Funcionário e Cliente).
 
 ### Perfis de Acesso:
-- **Dono (`Dono.java`, `TelaMenuDono.java`):** Gestão administrativa completa, incluindo cadastro, alteração e listagem de produtos e funcionários[cite: 15, 18, 20].
-- **Funcionário (`Funcionario.java`, `TelaMenuFuncionario.java`):** Atendimento e acompanhamento de pedidos em tempo real[cite: 15, 18, 20].
-- **Cliente (`Cliente.java`, `TelaMenuClientes.java`):** Consulta do cardápio e realização de compras com débito direto no saldo[cite: 15, 17, 18, 20].
+- **Dono (`Dono.java`, `TelaMenuDono.java`):** Gestão administrativa completa, incluindo cadastro, alteração e listagem de produtos e funcionários.
+- **Funcionário (`Funcionario.java`, `TelaMenuFuncionario.java`):** Atendimento e acompanhamento de pedidos em tempo real.
+- **Cliente (`Cliente.java`, `TelaMenuClientes.java`):** Consulta do cardápio e realização de compras com débito direto no saldo.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** Java 21
-- **Interface Gráfica:** Java AWT / Swing (janelas, tabelas e caixas de diálogo)[cite: 15]
-- **Base de Dados:** MySQL[cite: 15, 17, 20]
-- **Conexão:** JDBC (`ConnectionFactory.java`)[cite: 15, 17, 20]
-- **Gestão de Dependências:** Maven[cite: 20]
+- **Interface Gráfica:** Java AWT / Swing (janelas, tabelas e caixas de diálogo)
+- **Base de Dados:** MySQL
+- **Conexão:** JDBC (`ConnectionFactory.java`)
+- **Gestão de Dependências:** Maven
 
 ---
 
@@ -42,27 +42,27 @@ src/main/java/com/mycompany/testebd/
 ## ⚙️ Como Executar
 
 ### Pré-requisitos
-- **Java JDK 17+** (ou JDK 21) instalado[cite: 20]
-- Servidor **MySQL** em execução local na porta `3306`[cite: 20]
+- **Java JDK 17+** (ou JDK 21) instalado
+- Servidor **MySQL** em execução local na porta `3306`
 
 ### Configuração da Base de Dados
-Certifique-se de que a base de dados `cafeteria_db` está criada no seu servidor MySQL local[cite: 20]:
+Certifique-se de que a base de dados `cafeteria_db` está criada no seu servidor MySQL local:
 ```sql
 CREATE DATABASE cafeteria_db;
 ```
-Valide o utilizador e a palavra-passe de acesso no ficheiro `ConnectionFactory.java`[cite: 20].
+Valide o utilizador e a palavra-passe de acesso no ficheiro `ConnectionFactory.java`.
 
 ### Execução da Aplicação
-1. Abra a pasta do projeto no VS Code[cite: 20].
-2. Abra a classe `src/main/java/com/mycompany/testebd/Main.java`[cite: 20].
-3. Clique em **Run** sobre o método `public static void main` para iniciar a interface a partir da `TelaLogin`[cite: 20].
+1. Abra a pasta do projeto no VS Code.
+2. Abra a classe `src/main/java/com/mycompany/testebd/Main.java`.
+3. Clique em **Run** sobre o método `public static void main` para iniciar a interface a partir da `TelaLogin`.
 
 ---
 
 ## 👥 Autores
 
-- Bruno Fabrini Mesquita[cite: 13]
-- Gustavo Fernandes De Almeida[cite: 13]
-- José Guilherme Duarte[cite: 13]
-- Syden Rafael Escobar[cite: 13]
-- Thomas Boehm Machado[cite: 13]
+- Bruno Fabrini Mesquita
+- Gustavo Fernandes De Almeida
+- José Guilherme Duarte
+- Syden Rafael Escobar
+- Thomas Boehm Machado
